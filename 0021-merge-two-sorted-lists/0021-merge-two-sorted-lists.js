@@ -11,7 +11,7 @@
  * @return {ListNode}
  */
 var mergeTwoLists = function(list1, list2) {
-  let dummy = new ListNode(-1);
+  const dummy = new ListNode(-1);
   let current = dummy;
 
   while (list1 !== null && list2 !== null) {
