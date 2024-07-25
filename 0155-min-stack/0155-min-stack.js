@@ -1,7 +1,7 @@
 
 var MinStack = function() {
-    this.stack = [];
-    this.minStack = [];
+  this.stack = [];
+  this.minStack = [];
 };
 
 /** 
